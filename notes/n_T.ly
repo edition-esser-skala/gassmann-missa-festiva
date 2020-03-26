@@ -746,6 +746,122 @@ CredoTenoreLyrics = \lyricmode {
 	men. %177 finis
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr c2\fE^\tuttiE c4 r
+		e2 e4 r
+		d2 e4 e~
+		e e8 e d4 d
+		d4. d8 c!4 r\fermata \bar "||" %5
+		\tempoPleni c2 c4 f
+		e2 e
+		c c4 c
+		d2 d
+		c d4 d %10
+		es2 d4 d
+		c c c2
+		c4 c c4. c8
+		b8.([ c16)] d4 r g8.([ f16)]
+		e8.([ d16)] cis4 d4. d8 %15
+		d8.([ c16)] h4 c2
+		c b
+		b b
+		a4 c d8.([ c16)] b8.([ d16)]
+		c1 %20
+		c2 d8.([ c16)] b8.([ d16)]
+		c1
+		c2 r\fermata \bar "|." %23 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus,
+	san -- ctus Do --
+	mi -- nus De -- us
+	Sa -- ba -- oth. %5
+	Ple -- ni sunt
+	coe -- li,
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a, %10
+	glo -- ri -- a
+	tu -- a. O --
+	san -- na in ex --
+	cel -- sis, o --
+	san -- na in ex -- %15
+	cel -- sis, o --
+	san -- na
+	in ex --
+	cel -- sis, in __ ex --
+	cel -- %20
+	sis, in __ ex --
+	cel --
+	sis. %23 finis
+}
+
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr b4\fE^\tuttiE d c c8 b %5
+		a4 c8 c c8([ b16 a)] b8 b
+		g8. g16 f4 r r8 c'
+		c4 c8 c d8. d16 d8 d
+		c4 c8 d c4. b8
+		a4 r8 c d4 f8 f %10
+		e4 f8 c d4( c8.) c16
+		c4 r r2
+		R1*3 %15
+		f,4 f g g8 f^\critnote
+		e2 f8 c' c4(
+		d) d8 d c16 c c8 r4
+		b d c c8 b
+		a2 b4 r8 f' %20
+		g4 g8 g f4 f8 g
+		f4. es8 d4 b
+		b b8 c c([ b16 a)] b8 b
+		b4. a8 b4 r
+		c c8 c b8. b16 b8 b %25
+		a4 a8 a g8. g16 g8 g
+		f2 b8 b b b
+		a c d b16.([ d32)] c4.( b8)
+		a4 d16.([ c32)] b16.([ d32)] c4.( b8)
+		a4 r r2\fermata \bar "|." %30 finis
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne, in
+	no -- mi -- ne Do -- mi -- ni, in
+	no -- mi -- ne Do -- mi --
+	ni, qui ve -- nit in %10
+	no -- mi -- ne Do -- mi --
+	ni.
+
+	Be -- ne -- di -- ctus, qui %16
+	ve -- nit in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui %20
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+	O -- san -- na in ex -- cel -- sis, %25
+	o -- san -- na in ex -- cel -- sis,
+	o -- san -- na in ex --
+	cel -- sis, in ex -- cel --
+	sis, in __ ex -- cel --
+	sis. %30 finis
+}
+
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

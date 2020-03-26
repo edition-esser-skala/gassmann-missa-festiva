@@ -794,6 +794,132 @@ CredoBassFigures = \figuremode {
 	r %177 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoSanctus
+		\mvTr r16 f,\fE-\tutti a c f c a c f,4 r
+		r16 c' e g c g e g c,4 r
+		r16 b d g b g d b r a cis e a e cis a
+		r g cis e g e cis g r f a d f d a f \noBreak
+		r g h d g d h g c4 r\fermata \bar "||" %5
+		f4 f f, f' \noBreak
+		c c c, c'
+		f f f, f'
+		b, b b' b,
+		f'8 c a f f' d b f %10
+		f' c a f f' d b f
+		f'4 f, f'8.[ g16 a8. f16]
+		c'8.[ c,16 c'8. b16] a8.[ g16 f8. a16]
+		b8.[ b,16 b'8. a16] g8.[ f16 e8. g16]
+		a8.[ a,16 a'8. g16] fis8.[ e16 d8. fis16] %15
+		g8.[ g,16 g'8. f16] e8. d16 c4
+		f!8.[ g16 a8. f16] b!8.[ c16 d8. b16]
+		g8.[ a16 b8. g16] c,8.[ d16 e8. c16]
+		f8.[ g16 a8. f16] b8.[ c16 d8. b16]
+		f8.[ c16 a8. f16] c'8.[ c16 c'8. c,16] %20
+		f8.[ g16 a8. f16] b8.[ c16 d8. b16]
+		f8.[ c16 a8. f16] c'8.[ c16 c'8. c,16]
+		f4 f, r2\fermata \bar "|." %23 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r1
+	r
+	r16 <6>4.. r16 <_+>4..
+	r16 <4\+ 2>4.. r16 <6>4..
+	r16 <7 [_!]>2... %5
+	r1
+	r
+	r
+	r
+	r2 <6 4> %10
+	<7-> <6 4>
+	<5 3>1
+	<_!>2 <6 5->
+	r <6! 5>
+	<_+> <6 5!> %15
+	<[_!]> <6 5->
+	r1
+	r2 <[7]>
+	r1
+	r2 <5 4>4 <\t 3> %20
+	r1
+	r2 <5 4>4 <\t 3>
+	r1 %23 finis
+}
+
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoBenedictus
+		\mvTr b'4.\fE-\solo d8 c4. b8~
+		b a16 g a8 f b4. d8
+		es4 es16 d c b a4 b16 c d b
+		es4 es4. d8 es f
+		b,,-\tutti b d b f' f f, f' %5
+		f f a f b b, b'16 a g f
+		e8 c f f, d' d e e
+		f f, a' f b b, b'16 a g f
+		e8 c f b c c c, c
+		f f e e d d d des %10
+		c c d c b b c c
+		f,4 r8 as'-\solo g4. a8
+		b4 r8 des c4. d8
+		es!4 r8 b!8 a4. h8
+		c4 a b8 b c c, %15
+		f-\tutti f, a f c' c c
+		f c c e c f f, a f
+		b b' b,16 c d es f8 f, a f
+		b b' b, d f f f, f'
+		f f f, f' b, b b d %20
+		es es es16 d c b a8 f b es
+		f f f f, b b d b
+		es es es16 d c b a8 f b es
+		f f f f, b4 d'16. c32 b16. d32
+		c16. c,32 c'16. b32 a16. g32 f16. a32 b16. b,32 b'16. a32 g16. f32 e16. g32 %25
+		a16. a,32 a'16. g32 fis16. e32 d16. fis32 g16. g,32 g'16. f32 e16. d32 c16. e32
+		f16. g32 a16. f32 b16. c32 d16. b32 g16. a32 b16. g32 c,16. d32 e16. c32
+		f16. g32 a16. f32 b16. c32 d16. b32 f16. c32 a16. f32 c'16. c32 c'16. c,32
+		f16. g32 a16. f32 b16. c32 d16. b32 f16. c32 a16. f32 c'16. c32 c'16. c,32
+		f8 f, r4 r2\fermata \bar "|." %30 finis
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	r4. <6>8 <7>4 <6>
+	r8 <[6]> <[6 5]>4 <9 [4]> <8 [3]>8 <6 [5-]>
+	<9>4 <8> <6 5>2
+	<7>4 <6> <4 2>8 <6> <[6 5]>4
+	r <[6]> <[7] 4>4 <\t 3>8 <[6 4]> %5
+	<[5 3]>4 <[7]> <[9 4]> <[8 3]>
+	<6 5>8 <[7 _!]> r4 <6 5>4 q
+	r <6> <9> <8>
+	<6 5>8 <[7 _!]> r <[6 5]> <[6 4]>4 <[5 4]>8 <[\t _!]>
+	r4 <6> <7> <6>8 <\t> %10
+	<_!>4 <5>8 <6 4> <6 5>4 <_!>
+	r4. <6>8 <7 _!>4 <6- 4>8 <6 5>
+	r4. <6>8 <7 _!>4 <6- 4>8 <6 5->
+	r4. <6>8 <7 _+>4 <6 4>8 <6 5>
+	<_-> <_!> <6>4 <6 5> <4>8 <3> %15
+	r4 <[6]> <[7 4]> <[\t _!]>8 <[6 4]>
+	<[5 _!]>4 <[6 5]>8 <[7 _!]> <[9 4]>4 <[6]>
+	<9> <8> <[4]>8 <[3]>4.
+	r4. <[6]>8 <[7 4]>4 <[\t 3]>8 <[6 4]>
+	<[5 3]>4 <[7]> <[4]> <[3]>8 <[6]> %20
+	<9>4 <8> <[6 5]>4. q8
+	<6 4>4 <5 4>8 <\t 3> r4 <[6 5-]>
+	<9>4 <8> <[6 5]>4. <6 5>8
+	<6 4>4 <5 4>8 <\t 3> r4 <6>
+	<_!> <6 5-> r <[6!] 5> %25
+	<[5!] _+> <6 5!> <_!> <6 5->
+	r2. <[7 _!]>4
+	r2. <4>8 <_!>
+	r2. <4>8 <_!>
+	r1 %30 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

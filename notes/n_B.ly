@@ -715,6 +715,121 @@ CredoBassoLyrics = \lyricmode {
 	men. %177 finis
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr f2\fE^\tuttiE f4 r
+		c'2 c,4 r
+		b'2 a4 r
+		g g8 g f4 f
+		g4. g8 c,!4 r\fermata \bar "||" %5
+		\tempoPleni R1
+		r8 c e g c([ g)] e c
+		f2 f,
+		r8 b d f b([ f)] d b
+		f'2 b, %10
+		a b4 b
+		f' f, r2
+		c'' a8.([ g16)] f4
+		b4. b8 g8.([ f16)] e4
+		a2 fis8.([ e16)] d4 %15
+		g4. g8 e8.([ d16)] c4
+		f2 b!4 b
+		g g c,2
+		f4 r b b
+		c2( c,) %20
+		f b4 b
+		c2( c,)
+		f r\fermata \bar "|." %23 finis
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus,
+	san -- ctus
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth. %5
+
+	Ple -- ni sunt coe -- li et
+	ter -- ra,
+	ple -- ni sunt coe -- li et
+	ter -- ra %10
+	glo -- ri -- a
+	tu -- a.
+	O -- san -- na
+	in ex -- cel -- sis,
+	o -- san -- na %15
+	in ex -- cel -- sis,
+	o -- san -- na
+	in ex -- cel --
+	sis, in ex --
+	cel -- %20
+	sis, in ex --
+	cel --
+	sis. %23 finis
+}
+
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr b4\fE^\tutti b f' f8 f %5
+		f4 a8 a b4 b16([ a)] g([ f)]
+		e4 f8 f d4 e
+		f a b~ b16[ a g f]
+		e4 f8 b c4 c,
+		f r8 e d4 d8 des %10
+		c4 d8 c b4( c8.) c16
+		f,4 r r2
+		R1*3 %15
+		f'4 f c c8 c
+		c2 f4 a
+		b b,8 b f'16 f, f8 r4
+		b b f' f8 f
+		f2 b,4 r8 d %20
+		es4 es16([ d)] c([ b)] a8([ f)] b es
+		f4. f,8 b4 r8 d
+		es4 es16([ d)] c([ b)] a8([ f)] b es
+		f4. f,8 b4 r
+		c' a16.([ g32)] f8 b8. b16 g16.([ f32)] e8 %25
+		a4 fis16.([ e32)] d8 g8. g16 e16.([ d32)] c8
+		f4 b g c,8 c
+		f f b b c4.( c,8)
+		f4 b8 b c4( c,)
+		f r r2\fermata \bar "|." %30 finis
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni, in no --
+	_ mi -- ne Do -- mi --
+	ni, qui ve -- nit in %10
+	no -- mi -- ne Do -- mi --
+	ni.
+
+	Be -- ne -- di -- ctus, qui %16
+	ve -- nit in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui %20
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+	O -- san -- na in ex -- cel -- sis, %25
+	o -- san -- na in ex -- cel -- sis,
+	in ex -- cel -- sis, o --
+	san -- na in ex -- cel --
+	sis, in ex -- cel --
+	sis. %30 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

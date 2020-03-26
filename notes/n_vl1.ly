@@ -403,6 +403,75 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		<f' a,>2\fE f16 c'([-. b-. a-.] g-. f-. e-. d-.)
+		c2 c16 g'([-. f-. e-.] d-. c-. b-. a-.)
+		d2 cis4 <cis e,>
+		q q8 q <d d,>4 q
+		<f d>4. q8 <c e>4 r\fermata \bar "||" %5
+		\tempoPleni <f, a>8 q4 q q q8
+		<g g,> q4 q q q8
+		<f a> q4 q q q8
+		<f b> q4 q q q8
+		<f a> q4 q8 <f b> q4 q8 %10
+		<f c'> q4 q8 <f b> q4 q8
+		<f a> q4 q8 <a f'> q4 q8
+		<c e> q4 q8 <f, es'> q4 q8
+		<f d'> q4 q8 <e d'> q4 q8
+		<e cis'> q4 q8 <d c'> q4 q8 %15
+		<d h'> q4 q8 <g b> q4 q8
+		<f a> q4 q8 <f d'> q4 q8
+		<g d'> q4 q8 <c e> q4 q8
+		<c f> q4 q8 <d f> q4 q8
+		<c f> <c a'>4 q8 <b g'> q4 q8 %20
+		<a a'> <a f'>4 <c f>8 <d f> q4 q8
+		<c f> <c a'>4 q8 <b g'> q4 q8
+		<a f'>4 r r2\fermata \bar "|." %23 finis
+	}
+}
+
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoBenedictus
+			\set baseMoment = #(ly:make-moment 1/8)
+  		\set beatStructure = #'(2 2 2 2)
+		f4\fE b4. a16 g a8 b
+		f4 es'4. d16 c d8 f~
+		f es16 d es4~ es16 c f es d4~
+		d8 c16 h c es d c a8 b16 c c4\trill
+		\set subdivideBeams = ##t b32 d c b f'16 f f32 g f es f d c b b d c b a16 g a32 c b a b d c b %5
+		c es d c c16 c c32 b c d c es d c c es d c d16 d d32 es d c b d c b
+		c b c d c16 c c32 f e f f c b a b d c b b16 b g32 b a b c b a b
+		a c b a a16 c c32 f e f f c d es d es d c d16 d d32 es d c b d c b
+		c b c d c16 c c32 f e f d b a g a c b a f'16 f g32 b a g e g f e
+		f c b c a16 a g32 c h c c e d c c f e f f16 f f32 d c b b f' e f %10
+		e g f e e b' a g f a g f f a g f f e f d g f g f e g f e e g f e
+		\set subdivideBeams = ##f f8 f, f'4. es16 d es8 es
+		d b b'4. as16 g as8 as
+		g g, g'4. f16 es! f8 f
+		es e f4. g,8 g4\trill %15
+		\set subdivideBeams = ##t f32 a g f f'16 f f32 c b c a c b a g b a g b16 b g'32 b, a b a c b a
+		g b a g g16 g g32 b a b c b a b g b a g a16 g a32 c b a c es! d c
+		d f es d d16 d d32 f es d b d c b b d c b c16 c c32 es d es f es d c
+		b d c b f'16 f f32 g f es f d c b b d c b a16 g a32 c b a b d c b
+		c b a b c16 c c32 es d es f es d es c es d c d16 c d32 c d es f d c b %20
+		g' fis g as g16 g g32 as g f? es g f es es g f es es16 es d32 f es d c es d c
+		d f b a b f d b c es d c a c b a b a b c d c d es f es f g as g as f
+		g f g as g16 g g32 as g f es f es d es g f es es16 es d32 f es d c es d c
+		d f b a b f d b c es d c a c b a b a b c d c d es <f b,>16 q8 q16
+		\set subdivideBeams = ##f <c e> q8 q16 <f, es'> q8 q16 <f d'> q8 q16 <e d'> q8 q16 %25
+		<e cis'> q8 q16 <d c'> q8 q16 <d h'> q8 q16 <g b> q8 q16
+		<f a> q8 q16 <f d'> q8 q16 <d d'> q8 q16 <b' e> q8 q16
+		<a f'> q8 q16 <d f> q8 q16 <c f> <c a'>8 q16 <c g'> q8 q16
+		<a f'> q8 q16 <d f> q8 q16 <a f'> <c a'>8 q16 <c g'> q8 q16
+		<a f'>4 r r2\fermata \bar "|." %30 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

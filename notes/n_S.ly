@@ -717,6 +717,121 @@ CredoSopranoLyrics = \lyricmode {
 	men. %177 finis
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr f'2\fE^\tuttiE f4 r
+		c2 c4 r
+		d2 cis4 cis~
+		cis cis8 cis d4 d
+		f4.f8 e4 r\fermata \bar "||" %5
+		\tempoPleni r8 f, a c f([ c)] a f
+		c'2 c,
+		r8 f a c f([ c)] a f
+		d'2 d,
+		a' b4 b %10
+		c2 b4 b
+		a a f'2
+		e8.([ d16)] c4 es4. es8
+		d8.([ c16)] b4 d2
+		cis8.([ h16)] a4 c4. c8 %15
+		h8.([ a16)] g4 b2
+		a d
+		d e
+		f4 f, d' f
+		f2.( e4) %20
+		f2 f4 f
+		f2.( e4)
+		f2 r\fermata \bar "|." %23 finis
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus,
+	san -- ctus Do --
+	mi -- nus De -- us
+	Sa -- ba -- oth. %5
+	Ple -- ni sunt coe -- li et
+	ter -- ra,
+	ple -- ni sunt coe -- li et
+	ter -- ra
+	glo -- ri -- a, %10
+	glo -- ri -- a
+	tu -- a. O --
+	san -- na in ex --
+	cel -- sis, o --
+	san -- na in ex -- %15
+	cel -- sis, o --
+	san -- na
+	in ex --
+	cel -- sis, in ex --
+	cel -- %20
+	sis, in ex --
+	cel --
+	sis. %23 finis
+}
+
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr f4\fE^\tuttiE b4. a16[ g] a8 b %5
+		f4 es'8 es es([ d16 c)] d8 d
+		c4~ c16[ f] c([ a)] b4 b16([ d)] c([ b)]
+		a4 c c8([ b16 a)] b8 b
+		b([ a16 g)] a8 g a4 g
+		f8 a c4~ c8[ f] b, b %10
+		b4 a8 a g4. g8
+		f4 r r2
+		R1*3 %15
+		a4 a b b8 a
+		g2~ g8[ f16 e] f8 c'
+		c([ b16 a)] b8 b b16 a a8 r4
+		f b4. a16[ g] a8 b
+		f4 es'8 es es([ d16 c)] d8 f %20
+		f([ es16 d)] es8 es es([ d16 c)] d8 c
+		d4 c b f'
+		f8([ es16 d)] es8 es es([ d16 c)] d8 c
+		d4( c8.) c16 b4 f'
+		e16.([ d32)] c8 es8. es16 d16.([ c32)] b8 d4 %25
+		cis16.([ h32)] a8 c8. c16 h16.([ a32)] g8 b4
+		a d d e
+		f8 f, d' f f4.( e8)
+		f4 f8 f f4.( e8)
+		f4 r r2\fermata \bar "|." %30 finis
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	Be -- _ _ _ ne -- %5
+	di -- ctus, qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni, in no -- mi -- ne,
+	no -- mi -- ne  Do -- mi --
+	ni, qui ve -- nit in %10
+	no -- mi -- ne Do -- mi --
+	ni.
+
+	Be -- ne -- di -- ctus, qui %16
+	ve -- nit in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- _ _ _ ne --
+	di -- ctus, qui ve -- nit, qui %20
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni. O --
+	san -- na in ex -- cel -- sis, o -- %25
+	san -- na in ex -- cel -- sis, o --
+	san -- na in ex --
+	cel -- sis, in ex -- cel --
+	sis, in ex -- cel --
+	sis. %30 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -736,6 +736,121 @@ CredoAltoLyrics = \lyricmode {
 	men. %177 finis
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr a'2\fE^\tuttiE a4 r
+		g2 g4 r
+		g2 a4 a~
+		a a8 a a4 a
+		h4. h8 c!4 r\fermata \bar "||" %5
+		\tempoPleni a2 a4 a
+		g2 g
+		a a4 a
+		f2 f
+		f f4 f %10
+		f2 f4 f
+		f f a2
+		g8.([ f16)] e4 f4. f8
+		f4 f b2
+		a4 a a8.([ g16)] fis4 %15
+		g g g2
+		f! f
+		g g
+		f4 f f f
+		a2( g) %20
+		a f4 f
+		a2( g)
+		f r\fermata \bar "|." %23 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus,
+	san -- ctus Do --
+	mi -- nus De -- us
+	Sa -- ba -- oth. %5
+	Ple -- ni sunt
+	coe -- li,
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a, %10
+	glo -- ri -- a
+	tu -- a. O --
+	san -- na in ex --
+	cel -- sis, o --
+	san -- na in __ ex -- %15
+	cel -- sis, o --
+	san -- na
+	in ex --
+	cel -- sis, in ex --
+	cel -- %20
+	sis, in ex --
+	cel --
+	sis. %23 finis
+}
+
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr d4\fE^\tuttiE f es es8 d %5
+		c4 f8 f f4 f8 b
+		b8([ a16 g] a4.) g16 f g8. g16
+		f4 f f8. f16 f8 g
+		g4 f8 f f4. e8
+		f4 r8 g f4 f8 f %10
+		g4 f8 f f4( e8.) e16
+		f4 r r2
+		R1*3 %15
+		c4 f4. e16[ d] e8 f
+		c4 b'8 b b8([ a16 g)] a8 f
+		f4 f8 f f16 f f8 r4
+		d4. f8 es4 es8 d
+		c4.( f8) f4 b %20
+		b b8 c c8([ b16 a)] b8 b
+		b4. a8 b4 as
+		g g8 g f4 f8 g
+		f4. es8 d4 r
+		g f8 f f8. f16 e8 e %25
+		e4 d8 d d8. d16 c8 c
+		r4 f g8 g g g
+		f f f f a4( g)
+		a f8 f a4( g)
+		f r r2\fermata \bar "|." %30 finis
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni, in no -- mi -- ne, in
+	no -- mi -- ne  Do -- mi --
+	ni, qui ve -- nit in %10
+	no -- mi -- ne Do -- mi --
+	ni.
+
+	Be -- _ _ _ ne -- %16
+	di -- ctus, qui ve -- nit in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- ne -- di -- ctus, qui
+	ve -- nit, qui %20
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni.
+	O -- san -- na in ex -- cel -- sis, %25
+	o -- san -- na in ex -- cel -- sis,
+	o -- san -- na in ex --
+	cel -- sis, in ex -- cel --
+	sis, in ex -- cel --
+	sis. %30 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

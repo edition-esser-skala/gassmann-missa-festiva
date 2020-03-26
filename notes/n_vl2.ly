@@ -399,3 +399,72 @@ CredoViolinoII = {
 		<f a,> r r\fermata \bar "|." %177 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		<f c'>2\fE q8 r16 \once \slurDashed \once \stemUp c'(-. b-. a-. g-. f-.)
+		<e g,>2 q8 r16 \once \slurDashed g(-. f-. e-. d-. c-.)
+		b4 g' a2
+		a4 a8 a a4 a
+		<g h>4. q8 <g c>4 r\fermata \bar "||" %5
+		\tempoPleni c,8 c4 c c c8
+		<c e> q4 q q q8
+		<c f> q4 q q q8
+		<b d> q4 q q q8
+		c c4 c8 d d4 d8 %10
+		<c es> q4 q8 d d4 d8
+		c c4 c8 c <f a>4 q8
+		<c e> q4 q8 c' c4 c8
+		b b4 b8 <g b> q4 q8
+		a a4 a8 a a4 a8 %15
+		g g4 g8 c, c4 c8
+		c c4 c8 b b4 b8
+		b' b4 b8 <g b> q4 q8
+		<f a> q4 q8 <f b> q4 q8
+		<f a> <a f'>4 q8 <c e> q4 q8 %20
+		<c f> <a c>4 q8 <f b> q4 q8
+		<f a> <a f'>4 q8 <c e> q4 q8
+		<f, c' f>4 r r2\fermata \bar "|." %23 finis
+	}
+}
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoBenedictus
+			\set baseMoment = #(ly:make-moment 1/8)
+			\set beatStructure = #'(2 2 2 2)
+		d4\fE r8 f es4. d8
+		d c16 b c8 c'4 b16 a b8 as
+		g2 f
+		g c8 b4 a8
+		\set subdivideBeams = ##t b32 d c b f'16 f f32 g f es f d c b b d c b a16 g a32 c b a b d c b %5
+		c es d c c16 c c32 b c d c es d c c es d c d16 d d32 es d c b d c b
+		c b c d c16 c c32 f e f f c b a b d c b b16 b g32 b a b c b a b
+		a c b a a16 c c32 f e f f c d es d es d c d16 d d32 es d c b d c b
+		c b c d c16 c c32 f e f d b a g a c b a f'16 f g32 b a g e g f e
+		f c b c a16 a g32 c h c c e d c c f e f f16 f f32 d c b b f' e f %10
+		e g f e e b' a g f a g f f a g f f e f d g f g f e g f e e g f e
+		\set subdivideBeams = ##f f8 f, r c' h4 c
+		f, r8 f' e4 f
+		b, r8 d cis4 d
+		g, f2 e4 %15
+		\set subdivideBeams = ##t f32 a g f f'16 f f32 c b c a c b a g b a g b16 b g'32 b, a b a c b a
+		g b a g g16 g g32 b a b c b a b g b a g a16 g a32 c b a c es! d c
+		d f es d d16 d d32 f es d b d c b b d c b c16 c c32 es d es f es d c
+		b d c b f'16 f f32 g f es f d c b b d c b a16 g a32 c b a b d c b
+		c b a b c16 c c32 es d es f es d es c es d c d16 c d32 c d es f d c b %20
+		g' fis g as g16 g g32 as g f? es g f es es g f es es16 es d32 f es d c es d c
+		d f b a b f d b c es d c a c b a b a b c d c d es f es f g as g as f
+		g f g as g16 g g32 as g f es f es d es g f es es16 es d32 f es d c es d c
+		d f b a b f d b c es d c a c b a b a b c d c d es <f b,>16 q8 q16
+		\set subdivideBeams = ##f g, g8 g16 c c8 c16 b b8 b16 <g b> q8 q16 %25
+		a a8 a16 a a8 a16 g g8 g16 c, c8 c16
+		c c8 c16 b b8 b16 b' b8 b16 g g8 g16
+		f c'8 c16 b b8 b16 a <a f'>8 q16 <c f> <c e>8 q16
+		<a f'> q8 q16 <d f> q8 q16 f f8 f16 f e8 e16
+		<f a,>4 r r2\fermata \bar "|." %30 finis
+	}
+}
