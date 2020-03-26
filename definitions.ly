@@ -148,6 +148,14 @@ critnote = \markup { \musicglyph #'"pedal.*" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
+noKneeBeam = \once \override Beam.auto-knee-gap = #5.5
+
+bp = #(define-music-function
+     (parser location beg end)
+     (number? number?)
+   #{
+     \once \override Beam.positions = #(cons beg end)
+   #})
 
 
 ff = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "ff")))
@@ -225,6 +233,10 @@ tempoKyrie = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
 	tempoQuiTollis = \tempoMarkup "Adagio"
 	tempoQuoniam = \tempoMarkup "Allegro moderato"
+tempoCredo = \tempoMarkup "Allegro"
+	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
+	tempoEtVitam = \tempoMarkup "Più allegro"
 
 
 

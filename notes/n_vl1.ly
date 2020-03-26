@@ -215,6 +215,194 @@ GloriaViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoCredo
+			\override Beam.auto-knee-gap = #0
+		r8 \bp #0 #0.5 f'\fE f, a' g32 f g8.
+		r8 f d, f' es32 d es8.
+		r8 d c, b'' a32 g a8.
+		r8 g c,, g'' g32 f g8.
+		r8 a f, a' b32 a b8. %5
+		r8 a c,, g'' g32 f g8.
+		a8 b \appoggiatura b16 a32 g a8. g8 f
+		\bp #0 #0.5 f a f, a' \appoggiatura c16 h32 a h8.
+		r8 c c,, c'' \appoggiatura c16 h32 a h8.
+		r8 c c,, e' \appoggiatura e16 d32 c d8. %10
+		r8 e c, g'' g32 f g8.
+		r8 a f, c'' \appoggiatura d16 c32 h c8.
+		r8 h g,, e'' \appoggiatura g16 f32 e f8.
+		r8 e c, g'' a32 g a8.
+		r8 d, g,, f'' f32 e f8. %15
+		r8 e c, e' e32 d e8.
+		r8 e a,, e'' e32 d e8.
+		r8 \bp #0 #-0.5 f d, d' c!32 h c8.
+		r8 g' g,, h' h32 a h8.
+		r8 \bp #-2 #0 c c, g'' b!32 a b8. %20
+		r8 a f, a' cis,32 h? cis8.
+		r8 fis d, c''! c32 h c8.
+		r8 h g,, h'' a32 gis a8.
+		r8 \bp #0.5 #0 gis e, e' d32 c d8.
+		r8 c a, a'' a32 gis a8. %25
+		r8 f d, a'' c32 h c8.
+		r8 a e, a' gis32 fis gis8.
+		r8 a a,, a'' b! a
+		r g c,, b'' a32 g a8.
+		r8 b c,, b'' a32 g a8. %30
+		r8 a es, a' b32 a b8.
+		r8 c, a, es'' d32 c d8.
+		r8 es b, d' c32 b c8.
+		c32 d es8. \noKneeBeam f,8 d' c32 b c8.
+		r8 \bp #-2 #-1 b b, d' d32 c d8. %35
+		r8 \bp #-1 #0.5 d d, a'' c32 b c8.
+		r8 b g,, b'' b h
+		r c c,, b'' b32 a b8.
+		r8 \bp #1 #0.5 a f, f' f32 e f8.
+		r8 d b, d' c32 b c8. %40
+		r8 b g, b'' a32 g a8.
+		r8 f c, g'' g32 f g8.
+		r8 \bp #1 #0.5 a f, f' f32 e f8.
+		r8 d b, d' c32 b c8.
+		r8 b g, b'' a32 g a8. %45
+		r8 f c, g'' g32 f g8.
+		f4 r r\fermata \bar "||"
+		\key f \dorian \time 4/4 \tempoEtIncarnatus
+			\revert Beam.auto-knee-gap
+		r16 \mvTr f,8\pE-\markup { \remark "con sordino" } as c f des b es des16
+		des c8 as des c b g c b16
+		b as8 f f' h,16 c g'8 e des b16 %50
+		as as'8 f des h16 c g8 e c b16
+		as\f f'8 as c f des b es des16
+		des c8 as des c b g c b16
+		as f8 as c es16 des f8 b f \once \tieDashed des16~
+		des es,8 es' c as f' b b, as16 %55
+		g b8 es des es c as' f as16~
+		as f8 des f des16 c as'8 c,16 b des8 b16
+		\mvTr as\pE-\dolce as8 c es as f des ges \once \tieDashed f16~
+		f es8 c f es8 des b es \once \tieDashed des16~
+		des c8 f as c,16 h d8 h g f16 %60
+		es\f g8 c es c' g d h g'16
+		g b!8 b, des c f as f c16
+		c es8 c as ges16 f as8 des f des16
+		<es f,>4\ffE des16\p f8 b f des c h16
+		h4\ffE c16\p e8 g e c des b16 %65
+		as\pp f'8 as f des f as f as,16
+		as c8 c, b' g16 f as8 c f f,16
+		f des'8 f as f16 e g8 c, f f,16
+		f f'8 c as g16 f c'8 f des b16
+		b c8 f, g e16 f4 r\fermata \bar "||" %70
+		\key f \major \time 3/4 \tempoEtResurrexit
+			r8 f'\f f, a16 c c4\trill
+		r8 d b, b'16 d d4\trill
+		r8 b g, g'16 c c4\trill
+		c8 d a[ a' g, g']
+		r f f, a16 c c4\trill %75
+		r8 c c, g'16 c c4\trill
+		r8 f d, a'16 h h4\trill
+		r8 e c, e'16 d d4\trill
+		r8 c c, c'16 d d4\trill
+		r8 h c, g'16 c c4\trill %80
+		r8 d d, a'16 c c4\trill
+		r8 b! g, b'16 d d4\trill
+		r8 cis a, a'16 cis cis4\trill
+		r8 f d, d'16 f f4\trill
+		r8 d b, b'16 d d4\trill %85
+		r8 cis cis, e'16 a a4\trill
+		r8 cis, a, e''16 g g4\trill
+		<f a,> <e a,> r
+		R2.
+		r8 d\fE d, d'16 f f4\trill %90
+		r8 h, c, c'16 es es4\trill
+		r8 a, f b16 d c4\trill
+		r8 d f, f'16 a, a4\trill
+		r8 d d, a'16 c c4\trill
+		r8 b b, g''16 b b4\trill %95
+		r8 a f, f'16 a, a8 b
+		c16 a d b es c es c d8 b
+		r a a, a'16 b b4\trill
+		r8 es es, es'16 c d4\trill
+		r8 c c, c'16 es d4\trill %100
+		r8 c c, a'16 c c4\trill
+		r8 a a, a'16 c b4\trill
+		r8 es es, a16 es' d4\trill
+		r8 c a, c'16 es d4\trill
+		r8 c a, c'16 es d4\trill %105
+		r8 c a, c'16 es d4\trill
+		r8 c a, c'16 es d4\trill
+		r8 a16 c f,8 a16 c c8 d
+		es d c es es4\trill
+		r8 b f b16 c c4\trill %110
+		r8 d b, d' d4\trill
+		r8 d d, d' d4\trill
+		r8 d d, d' d4\trill
+		r8 d d, d' d4\trill
+		r8 d d, d' d4\trill %115
+		r8 c c, c' c4\trill
+		r8 c c, c' c4\trill
+		r8 c c, c' c4\trill
+		r8 c c, c' c4\trill
+		r8 cis g e'16 cis cis4\trill %120
+		d8 <d f> q q q q
+		<d e> q q q <cis e> q
+		d d d, d'16 h gis4
+		r8 c a, c' f4
+		<d f,>16 q q q q q q q <e b> q q q %125
+		<f a,>4 f, r
+		r g\p e
+		f g f
+		e2\fermata \tempoEtVitam r4
+		R2.*2 %131
+		r4 r f'\f
+		e c e
+		f d g
+		e8. d16 c8 c d e %135
+		f4 r8 c4 f8~
+		f d4 g e8
+		f4. f8 e d
+		c4 e g
+		a f d %140
+		g8. f16 e4 c~
+		c8 a d2~
+		d8 h e2~
+		e8 c f2~
+		f8 d g f e4~ %145
+		e8 c f e d4~
+		d8 h e d c4~
+		c8 a d c h4
+		c <c e, g,> <h d, g,>
+		<c e, g,>2 r4 %150
+		r r f
+		e c8 c d e
+		f4 c r
+		r r c~
+		c8 a d2~ %155
+		d8 h e2~
+		e8 c \once \tieDashed f2~
+		f16 d e f g a f g e4~
+		e16 c d e f g e f d4~
+		d16 b c d e f d e c4~ %160
+		c16 a b c d e c d b4~
+		b16 g a b c d b c a4
+		g g2\trill
+		f4 f'2
+		f16 e f d g a f g e4 %165
+		e16 d e c f g e f d4
+		d16 c d b e f d e c4
+		c16 b c a d e c d b4
+		b16 a b g c d b c a4
+		g2 g'4 %170
+		\override Beam.auto-knee-gap = #0
+			r8 \bp #0 #0 f f, f' f4\trill
+		r8 e c, g'' g4\trill
+		r8 \bp #0 #0.5 f f, a' a4\trill
+		r8 g c,, b'' b4\trill
+		r8 a f, a' g4\trill %175
+		r8 a f, a' g4\trill
+		<f a,> r r\fermata \bar "|." %177 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
