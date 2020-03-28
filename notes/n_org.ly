@@ -190,34 +190,34 @@ GloriaOrgano = {
 		r16 f f, f' r a a, a' r b b, b' r d d, d' %40
 		r8 c c, c' r c c, c' \noBreak
 		f,4 r r2\fermata \bar "||"
-		\tempoQuiTollis \mvTr d4\p-\senzaOrg f8 g a4 cis, \noBreak
+		\tempoQuiTollis d4\p^\senzaOrg f8 g a4 cis, \noBreak
 		r16 d f e d b' a gis a a e cis a4
 		r16 f' d f g4. e8 f4~ %45
 		f8 d e4. cis8 d4~
 		d8 g, a a d g a a,
-		d-! d[\f d-\colOrg d] g-! g[ g g]
+		d-! d[\f^\colOrg d d] g-! g[ g g]
 		cis,-! cis[ cis cis] d-! d[ d d]
 		c-! c[ c c] b-! b[ b b] %50
 		h-! h[ h h] b-! b[ b b]
 		a-! a[ a a] g g es' es
-		d d d, d g \mvTr g'[\p-\senzaOrg b c]
+		d d d, d g g'[\p^\senzaOrg b c]
 		d4 fis, g16-! g[ b a] g es' d cis
 		d8 d, g g e! e fis fis %55
 		g c, d d g c d d,
-		g-! g,[\f g-\colOrg g] c-! c[ c c]
+		g-! g,[\f^\colOrg g g] c-! c[ c c]
 		cis-! cis[ cis cis] d-! d[ d d]
 		d-! d[ d d] c-! c[ c c]
 		f f f f e e dis dis %60
-		e e e, e a4 \mvTr c8\p-\senzaOrg d
+		e e e, e a4 c8\p^\senzaOrg d
 		e4 gis a16 a, c h a f' e dis
 		e e' h gis e4 r16 c a c d4~
 		d8 h gis4 a8 d e e,
-		a d e e, a-! a'[\f a-\colOrg a] %65
+		a d e e, a-! a'[\f^\colOrg a a] %65
 		a a g! g g-! g[ g g]
 		f-! f[ f f] es-! es[ es es]
 		c-! c[ c c] b-! g[ g g]
 		a-! a[ a a] a a a a
-		d \mvTr g[\p-\senzaOrg a a,] d g a a, \noBreak %70
+		d g[\p^\senzaOrg a a,] d g a a, \noBreak %70
 		d4 r r2\fermata \bar "||"
 		\tempoQuoniam r8 \mvTr f\fE-\colOrgE f, f' r f d g \noBreak
 		r e c e r g c, c'
@@ -467,9 +467,9 @@ CredoOrgano = {
 		f f, r f' a f
 		b b, r b' a d,
 		g g, r e' f! f, %45
-		d' d, r c' c, c'
+		d' d, r c' c, c' \noBreak
 		f4 f, r\fermata \bar "||"
-		\key f \dorian \time 4/4 \tempoEtIncarnatus \mvTr f'8\p-\senzaOrg f f a b b g g
+		\key f \dorian \time 4/4 \tempoEtIncarnatus \mvTr f'8\p-\senzaOrg f f a b b g g \noBreak
 		as as f f g g e e
 		f f des des c c c e %50
 		f f des des c c c e
@@ -490,9 +490,9 @@ CredoOrgano = {
 		f8\pp f des des b b h h
 		c c c c des des a a
 		b b h h b b as as
-		des des c c f-\senzaOrg a b g
+		des des c c f-\senzaOrg a b g \noBreak
 		e f b, c f,4 r\fermata \bar "||" %70
-		\key f \major \time 3/4 \tempoEtResurrexit \mvTr f'8\fE-\tutti f, r f' a f
+		\key f \major \time 3/4 \tempoEtResurrexit \mvTr f'8\fE-\tutti f, r f' a f \noBreak
 		b b, r b' fis d
 		g g, r g' e c
 		f! b, c[ c c, c']
@@ -550,7 +550,7 @@ CredoOrgano = {
 		f4 f, r
 		r e'-!\p c-!
 		f-! e-! f-!
-		c2\fermata \clef treble \tempoEtVitam c''4-!\f^\orgE
+		c2\fermata \clef treble \tempoEtVitam c''4-!\f^\orgE \noBreak
 		a-! f-! a-! %130
 		b g c
 		<< {
@@ -944,9 +944,9 @@ AgnusDeiViolone = {
 		es es es es d d d d
 		es es es es e e e e
 		f f f f f f d d %20
-		b b b b h h h h
+		b b b b h h h h \noBreak
 		c c c c c2\fermata \bar "||"
-		\time 2/2 \tempoDona f2.\fE d4
+		\time 2/2 \tempoDona f2.\fE d4 \noBreak
 		g2. e4
 		f e d2\trill %25
 		c4 e f2~
@@ -1222,7 +1222,7 @@ AgnusDeiOrgano = {
 		f f f f e e e e %10
 		f f f f f f fis fis
 		g g g g g g g g
-		f!\f f f f f f f f
+		\mvDll f!\f f f f f f f f
 		es es es es d d d d
 		d d cis cis d d d d %15
 		g-! f-! es-! d-! c-! d-! es-! f-!

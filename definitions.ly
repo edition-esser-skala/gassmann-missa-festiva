@@ -99,15 +99,13 @@
     #{\markup \small \italic #text #}))
 
 movementTitle = #(define-scheme-function
-  (parser location number title subtitle)
-  (string? string? string?)
+  (parser location number title)
+  (string? string?)
   #{
 		 \markup {
-			 \with-color #(rgb-color .8313 0 0) { \fontsize #-4 #title }
+			 \with-color #(rgb-color .8313 0 0) { #number }
 			 \hspace #3
-			 #number
-			 \hspace #1
-			 #subtitle
+			 #title
 		 }
 	#}
 )
@@ -332,7 +330,7 @@ tempoAgnusDei = \tempoMarkup "Andante"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		% \override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
