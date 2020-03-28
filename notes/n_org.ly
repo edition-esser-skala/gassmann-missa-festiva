@@ -920,13 +920,578 @@ BenedictusBassFigures = \figuremode {
 	r1 %30 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiViolone = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoAgnusDei
+		f8\p f es es d d c c
+		b b b b a a a a
+		b b b b b b h h
+		c c c c c c c c
+		h\f h h h h h h h %5
+		a a a a f' f f f
+		e e e e e, e e e
+		a'-! g!-! f-! e-! d-! e-! f-! g-!
+		c\p c b! b a a g g
+		f f f f e e e e %10
+		f f f f f f fis fis
+		g g g g g g g g
+		f!\f f f f f f f f
+		es es es es d d d d
+		d d cis cis d d d d %15
+		g-! f-! es-! d-! c-! d-! es-! f-!
+		b\p b as as g g f f
+		es es es es d d d d
+		es es es es e e e e
+		f f f f f f d d %20
+		b b b b h h h h
+		c c c c c2\fermata \bar "||"
+		\time 2/2 \tempoDona f2.\fE d4
+		g2. e4
+		f e d2\trill %25
+		c4 e f2~
+		f4 d g2
+		e4 f2 e4
+		f f d b
+		r g' e c %30
+		d e f g
+		e \clef "treble_8" c' a f
+		r d' h g
+		e f b c
+		\clef bass \pa f,2~ f8 f-! d-! f-! %35
+		g2~ g8 g-! e-! c-!
+		f4 e d g,
+		c8 c-! e-! c-! f2~
+		f8 d^\markup { \remarkE "simile" } fis d g2~
+		g8 e gis e a2~ %40
+		a8 c a c f,2~
+		f8 a f a d,2~
+		d8 f d f h,2~
+		h8 d h d gis,2
+		a8 a c a f'2 %45
+		e8 e gis e a2~
+		a8 a f a f2
+		e4 f d e
+		a, a' fis d
+		r h' gis e %50
+		c' h a h
+		g! e a2
+		d d,
+		r r4 e
+		a2~ a8 a f a %55
+		f2~ f8 d fis d
+		g2~ g8 e gis e
+		a2~ a8 f! a f
+		b!2 b~
+		b8 b g b c g c b %60
+		a4 f b8 b, d b
+		f'2 f,
+		b'~ b8 g b g
+		c2~ c8 c a f
+		b4 a g2 %65
+		f8 f a f b2~
+		b8 b g b e,!2
+		f8 f a f b2~
+		b8 g h g c2
+		a8 h c2 h4 %70
+		c \clef "treble_8" c a f
+		r d' h g
+		e f b c
+		\clef bass f,2~ f8 f d f
+		g2~ g8 g e c %75
+		f4 e d2
+		c8 c e c f2~
+		f8 d fis d g2
+		e4 f2 e4
+		f2~ f8 f a f %80
+		b2~ b8 b d b
+		g2~ g8 g b g
+		c2~ c8 c e c
+		a2~ a8 a c a
+		d2~ d8 d f d %85
+		b2~ b8 b d b
+		g2~ g8 g b g
+		e2~ e8 e g e
+		c2~ c8 c e c
+		f2~ f8 f a f %90
+		d2~ d8 d f d
+		g2~ g8 g h g
+		e2~ e8 e g e
+		a2~ a8 a c a
+		f2~ f8 f a f %95
+		b!2~ b8 b d b
+		g2~ g8 g b g
+		\pd c2 c,~
+		c1~
+		c~ %100
+		c~
+		c~
+		c
+		f2~ f8 f d f
+		g2~ g8 g e g %105
+		c, c e c f2~
+		f8 f d f \once \tieDashed g2~
+		g4 f e c
+		d e f g
+		c,2 r %110
+		f~ f8 f d f
+		g2~ g8 e c e
+		f4 e d2
+		c~ c8 c e c
+		f2~ f8 f a f %115
+		d2~ d8 d f d
+		g2~ g8 g b g
+		e4 f b, c
+		\pa f2~ f8 f a f
+		d2~ d8 d f d %120
+		g2~ g8 g b g
+		e4 f b, c
+		f2~ f8 f b f
+		b2~ b8 b d b
+		g2~ g8 g b g %125
+		c2~ c8 c, e c
+		f2~ f8 f a f
+		b2~ b8 b d b
+		g2~ g8 g b g
+		c2. c,4 %130
+		f2 f
+		a, a
+		b b
+		f f
+		b b %135
+		b b
+		f1\fermata \bar "|." %137 finis
+	}
+}
+
+AgnusDeiVioloneScore = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoAgnusDei
+		f8\p f es es d d c c
+		b b b b a a a a
+		b b b b b b h h
+		c c c c c c c c
+		h\f h h h h h h h %5
+		a a a a f' f f f
+		e e e e e, e e e
+		a'-! g!-! f-! e-! d-! e-! f-! g-!
+		c\p c b! b a a g g
+		f f f f e e e e %10
+		f f f f f f fis fis
+		g g g g g g g g
+		f!\f f f f f f f f
+		es es es es d d d d
+		d d cis cis d d d d %15
+		g-! f-! es-! d-! c-! d-! es-! f-!
+		b\p b as as g g f f
+		es es es es d d d d
+		es es es es e e e e
+		f f f f f f d d %20
+		b b b b h h h h
+		c c c c c2\fermata \bar "||"
+		\time 2/2 \tempoDona f2.\fE d4
+		g2. e4
+		f e d2\trill %25
+		s1*3
+		f4 f d b
+		r g' e c %30
+		d e f g
+		e \clef "treble_8" c' a f
+		r d' h g
+		e f b c
+		\clef bass \pa f,2~ f8 f-! d-! f-! %35
+		g2~ g8 g-! e-! c-!
+		f4 e d g,
+		c8 c-! e-! c-! f2~
+		f8 d^\markup { \remarkE "simile" } fis d g2~
+		g8 e gis e a2~ %40
+		a8 c a c f,2~
+		f8 a f a d,2~
+		d8 f d f h,2~
+		h8 d h d gis,2
+		a8 a c a f'2 %45
+		e8 e gis e a2~
+		a8 a f a f2
+		e4 f d e
+		a, a' fis d
+		r h' gis e %50
+		c' h a h
+		g! e a2
+		d d,
+		r r4 e
+		a2~ a8 a f a %55
+		f2~ f8 d fis d
+		g2~ g8 e gis e
+		a2~ a8 f! a f
+		b!2 b~
+		b8 b g b c g c b %60
+		a4 f b8 b, d b
+		f'2 f,
+		b'~ b8 g b g
+		c2~ c8 c a f
+		b4 a g2 %65
+		f8 f a f b2~
+		b8 b g b e,!2
+		f8 f a f b2~
+		b8 g h g c2
+		a8 h c2 h4 %70
+		c \clef "treble_8" c a f
+		r d' h g
+		e f b c
+		\clef bass f,2~ f8 f d f
+		g2~ g8 g e c %75
+		f4 e d2
+		c8 c e c f2~
+		f8 d fis d g2
+		e4 f2 e4
+		f2~ f8 f a f %80
+		b2~ b8 b d b
+		g2~ g8 g b g
+		c2~ c8 c e c
+		a2~ a8 a c a
+		d2~ d8 d f d %85
+		b2~ b8 b d b
+		g2~ g8 g b g
+		e2~ e8 e g e
+		c2~ c8 c e c
+		f2~ f8 f a f %90
+		d2~ d8 d f d
+		g2~ g8 g h g
+		e2~ e8 e g e
+		a2~ a8 a c a
+		f2~ f8 f a f %95
+		b!2~ b8 b d b
+		g2~ g8 g b g
+		\pd c2 c,~
+		c1~
+		c~ %100
+		c~
+		c~
+		c
+		f2~ f8 f d f
+		g2~ g8 g e g %105
+		c, c e c f2~
+		f8 f d f \once \tieDashed g2~
+		g4 f e c
+		d e f g
+		c,2 r %110
+		f~ f8 f d f
+		g2~ g8 e c e
+		f4 e d2
+		c~ c8 c e c
+		f2~ f8 f a f %115
+		d2~ d8 d f d
+		g2~ g8 g b g
+		e4 f b, c
+		\pa f2~ f8 f a f
+		d2~ d8 d f d %120
+		g2~ g8 g b g
+		e4 f b, c
+		f2~ f8 f b f
+		b2~ b8 b d b
+		g2~ g8 g b g %125
+		c2~ c8 c, e c
+		f2~ f8 f a f
+		b2~ b8 b d b
+		g2~ g8 g b g
+		c2. c,4 %130
+		f2 f
+		a, a
+		b b
+		f f
+		b b %135
+		b b
+		f1\fermata \bar "|." %137 finis
+	}
+}
+
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoAgnusDei
+		\mvTr f8\p-\tuttiE f es es d d c c
+		b b b b a a a a
+		b b b b b b h h
+		c c c c c c c c
+		h\f h h h h h h h %5
+		a a a a f' f f f
+		e e e e e, e e e
+		a'-! g!-! f-! e-! d-! e-! f-! g-!
+		c\p c b! b a a g g
+		f f f f e e e e %10
+		f f f f f f fis fis
+		g g g g g g g g
+		f!\f f f f f f f f
+		es es es es d d d d
+		d d cis cis d d d d %15
+		g-! f-! es-! d-! c-! d-! es-! f-!
+		b\p b as as g g f f
+		es es es es d d d d
+		es es es es e e e e
+		f f f f f f d d %20
+		b b b b h h h h
+		c c c c c2\fermata \bar "||"
+		\time 2/2 \tempoDona f2.-!\fE d4-!
+		g2.-! e4-!
+		f-! e-! d2-!\trillE %25
+		<< {
+			c'2. a4
+			d2. h4
+			c a g2
+		} \\ {
+			c,4 e f2~
+			f4 d g2
+			e4 f2 e4
+		} >>
+		f f d b
+		r g' e c %30
+		d e f g
+		e \clef "treble_8" c' a f
+		r d' h g
+		e f b c
+		\clef bass f,2. d4 %35
+		g2. e4
+		f e d2
+		c4 e f2~
+		f4 fis g2~
+		g4 gis a2~ %40
+		a4 a f2~
+		f4 f d2~
+		d4 d h2~
+		h4 h gis2
+		a4 a f'2 %45
+		e4 gis a2~
+		a4 a f2
+		e4 f d e
+		a, a' fis d
+		r h' gis e %50
+		c' h a h
+		g! e a2
+		d d,
+		r r4 e
+		a2. f4 %55
+		f2. fis4
+		g2. gis4
+		a2. a4
+		b!2 b~
+		b4 g c b %60
+		a2 b
+		f r
+		b2. g4
+		c2. a4
+		b a g2 %65
+		f4 a b2~
+		b4 g e!2
+		f4 a b2~
+		b4 h c2
+		a8 h c2 h4 %70
+		c \clef "treble_8" c a f
+		r d' h g
+		e f b c
+		\clef bass f,2. d4
+		g2. e4 %75
+		f e d2
+		c4 e f2~
+		f4 fis g2
+		e4 f2 e4
+		f2. a4 %80
+		b2. b4
+		g2. g4
+		c2. c4
+		a2. a4
+		d2. d4 %85
+		b2. b4
+		g2. g4
+		e2. e4
+		c2. c4
+		f2. f4 %90
+		d2. d4
+		g2. g4
+		e2. e4
+		a2. a4
+		f2. f4 %95
+		b!2. b4
+		g2. g4
+		c2 c,~-\tasto
+		c1~
+		c~ %100
+		c~
+		c~
+		c
+		\once \tieDashed f2~ f8 f d f
+		\once \tieDashed g2~ g8 g e g %105
+		c, c e c f2~
+		f8 f d f g2~
+		g4 f e c
+		d e f g
+		c,2 r %110
+		f~ f8 f d f
+		\once \tieDashed g2~ g8 e c e
+		f4 e d2
+		c~ c8 c e c
+		f2~ f8 f a f %115
+		d2~ d8 d f d
+		g2~ g8 g b g
+		e4 f b, c
+		f2. f4
+		d2. d4 %120
+		g2. g4
+		e f b, c
+		f2. f4
+		b2. b4
+		g2. g4 %125
+		c2. c,4
+		f2. f4
+		b2. b4
+		g2. g4
+		c2. c4 %130
+		f,1
+		a,
+		b
+		f
+		b~ %135
+		b
+		f\fermata \bar "|." %137 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r4 <4 2> <6> <6 _->
+	r2 <[6]>
+	r2. <6 5>4
+	<[9] 4>4 <[8] 3>8 <[7!] 2> <[8] 3>2
+	<6\\ [4]>4 \bassFigureExtendersOn <6\\ [5]>2 <6\\ [4]>4 \bassFigureExtendersOff %5
+	r2 <6\\>
+	<6 4> <5! 4>4 <[\t _+]>
+	r1
+	r4 <4 2> <6> <6 _->
+	r2 <[6]> %10
+	r <6 5>
+	<[9] 4>4 <[8] _!>8 <[7+] 2> <[8] _!>2
+	<6 4! _->1
+	<6>2 <7 _+>
+	<6- 4>4 <7> <5 4> <\t _+> %15
+	r1
+	r4 <4> <6-> <6 _->
+	r2 <6>
+	r <6 5>
+	<[9] 4>4 <[8 3]>8 <[7 2]> <[8] 3>2 %20
+	<6 5> <\t \t>
+	<[9] 4>4 <[8] 3>8 <[7!] 2> <[8] 3>2
+	r1
+	r
+	r %25
+	r
+	r
+	r
+	r2 <6>
+	r4 <_!> <6>2 %30
+	<5>8 <6!> <6>4 <6 5> <_!>
+	r2 <6>
+	r4 <_+> <6> <[_!]>
+	<6 5->2 <6 5>
+	r2 <6 4>4 <[6]> %35
+	<_->4 <_!> <[6] 4> <6>
+	q4 q <7> <6!>
+	r <6> r2
+	<6> <[_!]>
+	<6 [_!]>1
+	r
+	r
+	r
+	r2 <[6 _!]>
+	r <6> %45
+	<[5! _+]>4 <[6 _!]> r2
+	<6> q
+	<_+> <6! 5>4 <[5!] _+>
+	r <_+> <6>2
+	r4 <[5+] _+> <6 [_!]> <[5! _+]> %50
+	<6> <6! 4> <6+ 5> <[5+] _+>
+	<6 [_!]> <[5!] _+> r2
+	r1
+	r2. <[5! _+]>4
+	r1 %55
+	<[5]>2 <6>
+	<[5 _!]> <6>
+	<[5]> <6>
+	<[5]> <[6]>
+	<4- 2> <[_-]> %60
+	<6 5->1
+	<[4]>2 <[3]>
+	r <[6] 4->4 <[6-]>
+	<_-> <_!> <[6] 4> <[6]>
+	r <6> <7> <6!> %65
+	r <[6]>2.
+	r2 <6>
+	r4 <[6]>2.
+	<[6 5]>1
+	<6>8 <6 [5]> <3>4 <4 2> <6 5> %70
+	r2 <6>
+	r4 <_+> <6> <[_!]>
+	<6>2 <6 5>
+	r2 <6 4>4 <[6]>
+	<_-> <_!> <6 4> <[6]> %75
+	r <6> <7> <6!>
+	r4 <[6]>2.
+	<6>2 <[_!]>
+	<6>4 <3> <4! 2> <6 5>
+	r2. <[6]>4 %80
+	r1
+	r
+	r
+	r
+	r %85
+	r
+	r
+	r
+	r
+	r %90
+	r
+	<_!>
+	<[5!]>
+	r
+	r %95
+	r
+	r
+	r
+	r
+	r %100
+	r
+	r
+	r
+	r2 <[6] 4>
+	<_->4 <_!> <[6] 4>2 %105
+	r1
+	<6>2 <_!>
+	r4 <[4! 2]> <6>2
+	<[5]>8 <[6!]> <6>4 <6 5> <_!>
+	r1 %110
+	<[6]>2 <[4! 2]>
+	<_!> <6 4>
+	r4 <[6]> <7> <6!>
+	r1
+	r %115
+	r
+	r
+	<[6 5]>2 q
+	r1
+	r %120
+	r
+	<[6 5]>2 q
+	r1
+	r
+	r %125
+	r
+	r
+	r
+	r
+	r %130
+	r
+	<6>2 <5->
+	r1
+	r
+	r %135
+	r
+	r %137 FINIS
+}

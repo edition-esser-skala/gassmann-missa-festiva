@@ -472,10 +472,144 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoAgnusDei
+		a'2\p b4 c
+		d2 c
+		d f
+		f4 e8 d e2
+		<gis d>16\f q8 q q q q q q q16 %5
+		<c, a'> q8 q q q q q q q16
+		q q8 q q q16 <h a'> q8 q16 <h gis'> q8 q16
+		<a a'> cis,8 d e f e d c h16
+		c4 e'\p f g
+		a2 g %10
+		a c,
+		c4 h8 a h2
+		<h as'>16\f q8 q q q q q q q16
+		<c g'> q8 q q q16 <c fis> q8 q q q16
+		<b! g'> <b g'>8 q q q16 <a g'> q8 q16 <a fis'> q8 q16 %15
+		<g g'> h,8 c d es d c b a16
+		b4 d'\p es f
+		g2 f
+		g b,
+		b4 a8 g a4 a %20
+		g2 f
+		f4 e8 d e2\fermata \bar "||"
+		\time 2/2 \tempoDona R1*3 %25
+		c2.\fE a4
+		d2. h4
+		c a g2
+		a4 a \once \tieDashed b2~
+		b4 h c2 %30
+		a8 h c2 h4
+		c'2. a4
+		d2. h4
+		c a g2
+		f8 f-! a-! f-! b2~ %35
+		b8 g-! h-! g-! c2
+		a8 h c2 h4
+		c2~ c8 c-! a-! c-!
+		d2~ d8 d^\markup { \remarkE "simile" } h d
+		e2~ e8 e c e %40
+		c2~ c8 c a c
+		a2~ a8 a f a
+		d2~ d8 d f d
+		h2~ h8 h d h
+		a2~ a8 a d, a' %45
+ 		gis4 e'~ e8 e c e
+		f2~ f8 d a d
+		h? gis a a' a, h gis h
+		a a, cis a d2~
+		d8 h dis h e2~ %50
+		e8 e e' e, e4 dis
+		<e e'>2~ e'8 e c e
+		f2~ f8 d a d
+		e4 c h2
+		a8 a c a c2~ %55
+		c8 c a c d2~
+		d8 d h d e2~
+		e8 e c e f2~
+		f8 f d f g d g f
+		es2 es~ %60
+		es8 es c es d2
+		c1
+		b8 b d b es2~
+		es8 c e c f2
+		d8 e! f2 e4 %65
+		f2~ f8 f d f
+		b,2~ b8 c g c
+		a4 f'~ f8 f d f
+		g2~ g8 g e g
+		f4 e d2 %70
+		c8 c e c \once \tieDashed f2~
+		f8 d fis d \once \tieDashed g2~
+		g4 f2 e4
+		f8 f, a f b2~
+		b8 g h g c2 %75
+		a8 h c2 h4
+		c2~ c8 c a c
+		d2~ d8 d h d
+		c4 a b8 b c b
+		a a c a f'2~ %80
+		f8 f d f d2~
+		d8 d b d g2~
+		g8 g e g e2~
+		e8 e c e a2~
+		a8 a f a f2~ %85
+		f8 f d f d2~
+		d8 d b d b2~
+		b8 b g b g2~
+		g8 g e g c2~
+		c8 c a c a2~ %90
+		a8 a f a d2~
+		d8 d h d h2~
+		h8 h g h e2~
+		e8 e c e c2~
+		c8 c a c f2~ %95
+		f8 f d f d2~
+		d8 d b d g4 f
+		e8 e g e c2
+		d~ d8 d e d
+		c2~ c8 c d c %100
+		b2~ b8 b c b
+		a2~ a8 a b a
+		g2~ g8 g b g
+		f2 r
+		R1 %105
+		c'2~ c8 c a c
+		d2~ d8 d h d
+		g, g h g c2
+		a8 h c2 h4
+		c8 c e c f2~ %110
+		f8 f a f d2~
+		d8 d h d c2~
+		c8 c e c f2
+		e8 e g e c2~
+		c8 c f c a2~ %115
+		a8 a f a d2~
+		d8 d g d \once \tieDashed b2~
+		b8 g' a, f' g, f' g, e'
+		f c a c a2~
+		a8 a f a d2~ %120
+		d8 d g d \once \tieDashed b2~
+		b8 g' a, f' g, f' g, e'
+		f a, c a f'2~
+		f8 f d f d2~
+		d8 d b d \once \tieDashed g2~ %125
+		g8 g e g e2
+		f8 c a c f2~
+		f8 f d f d2~
+		d8 d b d \once \tieDashed g2~
+		g8 g e g e2 %130
+		f8 f a f c c f c
+		f, f c' f, es es c' es,
+		d d f d b' b d b
+		a a c a c c f c
+		d d f d b b d b %135
+		f f b f d d f d
+		c1\fermata \bar "|." %137 FINIS
+	}
+}
