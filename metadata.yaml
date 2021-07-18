@@ -1,0 +1,17 @@
+composer: Gassmann, Florian Leopold
+title: Missa festiva Gentes adorabunt supremum magnumque orbis numen
+id: (A-Ed A 97)
+genre: mass
+scoring: S, A, T, B (coro), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: A 97
+    type: manuscript copy
+    date: unknown
+    rism: 600037895
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/747.html
+github: gassmann-missa-festiva
+imslp: Mass_in_F_major_(Gassmann%2C_Florian_Leopold)
+notes:
+
